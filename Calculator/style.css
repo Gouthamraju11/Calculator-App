@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.calculator {
+    background-color:dimgrey;
+    padding: 10px;
+    border-radius:2em;
+    border:solid black 2px;
+    height: 380px;
+    width: 400px;
+    margin:auto;
+}
+.display-box {
+    font-weight: bolder;
+    background-color: black;
+    font-family: sans-serif ;
+    border: white 2px;
+    color: white;
+    border-radius: 1rem;
+    width: 100%;
+    height: 65%;
+}
+button{
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color:gainsboro;
+    border: solid black 2px;
+    border-radius: 1rem;
+    width: 100%;
+    height:70%;
+}
+button:active{
+    border-radius: 5rem;
+    height:80%;
+    width: 90%;
+}
